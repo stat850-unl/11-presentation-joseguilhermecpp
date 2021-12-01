@@ -1,0 +1,48 @@
+
+---
+title: "LaTeX Slides - Introduction"
+author: "Jose Cesario Pinto"
+date: "11/28/2021"
+output: beamer_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Introduction
+
+- *Name*: Jose Cesario Pinto
+- *DOB*: 03/27/1992
+- *Country*: Brazil
+- *Program*: PhD student at Department of Agronomy, focusing on Precision Ag and Nutrient Management
+- *Expected Graduation*: May/2025
+
+## Favorite Animal
+
+![](Image/Dog.jpeg){width="400"}
+
+## Favorite Plot
+
+```{r pressure}
+# Loading packages
+library(ggplot2)
+library(ggthemes)
+
+# Getting data
+data("mtcars")
+
+# Plotting
+p <- ggplot(mpg, aes(class, cty, fill=class))
+p + geom_boxplot(alpha=0.5) + geom_jitter(aes(color=class),alpha=0.4, size=2) +
+  labs(title="Boxplot + Jitter", 
+       subtitle="City Mileage vs Type of vehicle",
+       x="Type of Vehicle",
+       y="City Mileage") +
+  theme_base()+
+  theme(legend.position="none")
+
+```
+## CV Link
+
+[Resume](add link here)
