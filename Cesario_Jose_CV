@@ -1,0 +1,152 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+
+%
+% Creator Peilin Li
+% Contact me via twitter/wechat: @pe1l1nl1
+% linkedin.com/peill and/or github/ppeill
+% Inspired by Peppa Pig
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.40in,top=0.3in,right=0.75in,bottom=0.1in]{geometry} % Document margins
+\usepackage{fontawesome}
+\usepackage{times}
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+% \begin{center}
+
+\name{Jose Cesario Pinto} % Your name
+
+
+%\address{123 Pleasant Lane \\ City, State 12345} % Your secondary addess (optional)
+\address{ \faEnvelope{jcesariopereirapin2@huskers.unl.edu} \faSkype{jgcpp@hotmail.com}
+\faGithub{github.com/joseguilhermecpp} }
+\address{\faMapMarker{ Lincoln, NE, 68504} \faPhone(785)-410-xxxx} % Your address
+
+\begin{document}
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+
+{\bf University of Nebraska-Lincoln, Lincoln, NE }\hfill {\em May 2021 - May 2024}
+\\{ \textit {Doctor of Philosohphy in Agronomy }}
+
+{\bf Kansas State University, Manhattan, KS} \hfill{\em May 2019 - May 2021}
+\\ { \textit {Master of science in Agronomy}} \hfill
+
+{\bf Federal University of Santa Catarina, Florianopolis, Brazil }\hfill {\em Aug 2011 - May 2018}
+\\{ \textit {Bachelor of Science in Agronomy  }}
+
+\end{rSection}
+
+%-----------------------------------------------------------------------------------------------
+%    RESEARCH EXPERIENCE
+%-----------------------------------------------------------------------------------------------
+
+\begin{rSection}{Research Experience}
+
+{\bf Graduate Research Assistant, Department of Agronomy and Horticulture, University of Nebraska-Lincoln}
+\\- Evaluate the economic and environmental implications of different technologies for nitrogen management in wheat and corn
+\\- Apply remote sensing and crop model-based decision support tools
+\\- Contribute to improve current nitrogen recommendations for wheat and corn producers in Nebraska
+
+{\bf Graduate Research Assistant, Department of Agronomy, Kansas State University }
+\\- Develop an inexpensive minirhizotron camera that automates the image collection and analysis for root study
+\\- Validate and benchmark the camera system by quantifying root and soil microbiome parameters in a soybean inoculation experiment
+\\- Use of Python for automating root tracing and quantitatively study roots
+\\- Courses focused on Soil fertility, Cropping systems, Statistics, Programming (Python and SAS)
+
+\end{rSection}
+
+% \begin{rSection}{Carrier Objective}
+%  To work for an organization which provides me the opportunity to improve my skills and knowledge to grow along with the organization objective.
+% \end{rSection}
+%--------------------------------------------------------------------------------
+%    TEACHING EXPERIENCE
+%-----------------------------------------------------------------------------------------------
+\begin{rSection}{Teaching Experience}
+
+{\bf  Graduate Teaching Assistant, Department of Agronomy, Kansas State University}
+\\{ \textit {AGRON 305 - Intro Soils  }}
+\\- Lead instructor of introductory a soils laboratory section
+\\- Lead field trips for hands-on soil classification methodology and practice
+\\- Responsible for grading of lab section weekly assignments
+\\- Lead review sessions prior to exams
+
+{\bf  Graduate Teaching Assistant, Department of Agronomy and Horticulture, University of Nebraska-Lincoln}
+\\{ \textit {AGRO 431 - Site-Specific Crop Management  }}
+\\- Lead instructor of site-specific crop management laboratory section
+\\- Responsible for grading of lab section weekly assignments
+
+\end{rSection}
+%-----------------------------------------------------------------------------------------------
+%    RELEVANT SKILLS
+%-----------------------------------------------------------------------------------------------
+
+\begin{rSection}{Relevant Skills}
+\\- Software: SAS, R Studio, ArcGIS, Python, RootSnap, and Creative Cloud
+\\- Microsoft Office
+\end{rSection}
+
+%-----------------------------------------------------------------------------------------------
+%    LEADERSHIP ACTIVITIES
+%-----------------------------------------------------------------------------------------------
+
+\begin{rSection}{Leadership Activities}
+\\- FarmBits podcast, Co-Host
+\\- Agronomy Graduate Student Association, Social Chair
+\\- Brazilian Student Association, Vice-President
+\end{rSection}
+
+%-----------------------------------------------------------------------------------------------
+%    ACHIEVEMENTS AND AWARDS
+%-----------------------------------------------------------------------------------------------
+
+\begin{rSection}{Achievements and Awards}
+\\- NACTA Graduate Student Teaching Award. North American Colleges and Teachers of Agriculture 2021.
+\\- Scholarship Agronomy Department for distinguished graduate students. Kansas State University 2020.
+\end{rSection}
+\pagebreak
+
+%-----------------------------------------------------------------------------------------------
+%    PEER-REVIEWED PUBLICATIONS
+%-----------------------------------------------------------------------------------------------
+
+
+\begin{rSection}{Peer-Reviewed Publications}
+\\- \textbf{Pinto, J. G. C. P.}, Munaro, L. B., Jaenisch, B. R., Nagaoka, A. K., & Lollato, R. P. (2019). Wheat Variety Response to Seed Cleaning and Treatment after Fusarium Head Blight Infection. Agrosystems, Geosciences & Environment, 2(1), 1-8. https://doi.org/10.2134/age2019.05.0034
+\end{rSection}
+
+%-----------------------------------------------------------------------------------------------
+%    PROFESSIONAL MEETINGS
+%-----------------------------------------------------------------------------------------------
+
+\begin{rSection}{Professional Meetings}
+\\- \textbf{Pinto, J. G. C. P.},  Mueller, N., Thompson, L., & Puntel, L. 2021.Site-Specific Winter Wheat Yield and Protein Response to N in Nebraska. In: ASA CSSA SSSA International Annual Meetings, Salt Lake City, UT. 2021. Oral Presentation.
+\\- \textbf{Pinto, J. G. C. P.}, Song, Y., Naiqian, Z. & Moorberg, C. J. 2020. Benchmarking the RhizoPi Automated Minirhizotron Camera System. In: ASA CSSA SSSA International Annual Meetings, Phoenix, AZ. 2020. Five-Minute Rapid Presentation.
+\end{rSection}
+
+%-----------------------------------------------------------------------------------------------
+%    MEMBERSHIPS
+%-----------------------------------------------------------------------------------------------
+
+\begin{rSection}{Memberships}
+\\- American Society of Agronomy
+\\- North American Colleges and Teachers of Agriculture
+\\- Soil Science Society of America
+\end{rSection}
+
+\end{document}
