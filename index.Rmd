@@ -9,6 +9,6 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-[Markdown git deck] (https://github.com/stat850-unl/11-presentation-joseguilhermecpp/blob/master/Slides.pdf)
-[LaTeX git deck] (https://github.com/stat850-unl/11-presentation-joseguilhermecpp/blob/master/Cesario_Jose_Presentation.html)
-[git CV] (https://github.com/stat850-unl/11-presentation-joseguilhermecpp/blob/master/Jose_Cesario_Resume%20(2).pdf)
+[Markdown git deck] (https://stat850-unl.github.io/11-presentation-joseguilhermecpp/Slides.pdf)
+[LaTeX git deck] (https://stat850-unl.github.io/11-presentation-joseguilhermecpp/Cesario_Jose_Presentation.html)
+[git CV] (https://stat850-unl.github.io/11-presentation-joseguilhermecpp/blob/master/Jose_Cesario_Resume%20(2).pdf)
